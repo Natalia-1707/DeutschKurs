@@ -1,0 +1,470 @@
+html {
+    max-width: 1011px;
+    margin: 0 auto;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: rgba(34, 32, 32, 1);
+}
+body {
+    margin: 0;
+    width: 1011px;
+    padding: 0;
+}
+header {
+    width: 1011px;
+    height: 130px;
+    margin: 0;
+    padding: 0px;
+}
+.header_container {
+    width: 1011px;
+    height: 130px;
+    background-color: rgba(34, 32, 32, 1);
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+}
+.logo {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 240px;
+    height: 49px;
+    padding: 44px 40px 37px 41px;
+}
+.logo_name {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 32px;
+    color: rgba(255, 200, 4, 0.85);
+    margin: 0px;
+}
+.navigation {
+    width: 405px;
+    height: 15px;
+    margin: 0px;
+    padding: 61px 37px 51px 0px;
+}
+.nav {
+    list-style-type: none;
+    display: inline-flex;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    gap: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+.link_nav {
+    text-decoration: none;
+}
+.link_nav:hover {
+    text-decoration: underline 2px rgba(255, 200, 4, 0.85);
+}
+.button_header {
+    width: 210px;
+    height: 53px;
+    margin: 0px;
+    padding: 40px 39px 23px 0px;
+}
+.button_one {
+    width: 210px;
+    height: 53px;
+    border: 2px solid rgba(255, 200, 4, 0.85);
+    border-radius: 2px;
+    background-color: rgba(34, 32, 32, 1);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1px 2px 4px 0px;
+}
+.button_one:hover {
+    background-color: rgba(255, 200, 4, 0.85);
+    border: none;
+    font-weight: bold;
+}
+.main {
+    width: 1011px;
+    margin: 0px;
+    padding: 0px;
+}
+.welcome {
+    width: 1011px;
+    height: 497px;
+    background-color: rgba(34, 32, 32, 1);
+    margin: 0px;
+    padding: 0px;
+}
+.welcome_img {
+    width: 930px;
+    background-image: url(img/Welcome_img.png);
+    height: 437px;
+    margin: 27px 41px 61px 41px;
+    padding: 0px;
+}
+.welcome_text {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 128px 148px 0px 153px;
+    letter-spacing: 1.5px;
+}
+.welcome_description {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0px 166px 13px 166px;
+    text-align: center;
+    width: 570px;
+    height: 53px;
+    opacity: 80%;
+}
+.button_two {
+    width: 290px;
+    height: 71px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(255, 200, 4, 0.85);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px 322px 125px 317px;
+    padding: 0px 8px 3px 5px;
+    opacity: 90%;
+}
+.button_two:hover {
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 200, 4, 0.85);
+    font-weight: bold;
+}
+.advantages {
+    width: 1011px;
+    height: 268px;
+    margin: 0px;
+    padding: 0px;
+}
+.h_one {
+    padding: 0px 370.5px 55px 370.5px;
+    margin: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    opacity: 90%;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 2px;
+}
+.points {
+    width: 902px;
+    height: 131px;
+    margin: 0px;
+    padding: 0px 64px 81px 45px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.point_one {
+    width: 190px;
+    height: 133px;
+    margin: 0px;
+    padding: 0px 62px 0px 0px;
+}
+.point_img_one {
+    padding: 4px 64px 20px 76px;
+}
+.point_one_description {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    opacity: 85%;
+    color: rgba(255, 255, 255, 1);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.point_two {
+    width: 166px;
+    height: 133px;
+    margin: 0px;
+    padding: 0px 69px 0px 0px;
+}
+.point_img_two {
+    padding: 6px 59px 19px 63px;
+}
+.point_two_description {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    opacity: 85%;
+    color: rgba(255, 255, 255, 1);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.point_three {
+    width: 177px;
+    height: 133px;
+    margin: 0px;
+    padding: 0px 63px 0px 0px;
+}
+.point_img_three {
+    padding: 6px 63.5px 19px 69px;
+}
+.point_three_description {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    opacity: 85%;
+    color: rgba(255, 255, 255, 1);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.point_four {
+    width: 175px;
+    height: 133px;
+    margin: 0px;
+    padding-left: 6px;
+}
+.point_img_four {
+    padding: 6px 62.5px 19px 62.5px;
+}
+.point_four_description {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    opacity: 85%;
+    color: rgba(255, 255, 255, 1);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.teacher {
+    width: 1011px;
+    height: 473px;
+    padding: 0px;
+    margin: 0px;
+}
+.teacher_container {
+    width: 930px;
+    height: 427px;
+    margin: 44px 40px 46px 40px;
+    padding: 0px;
+    background-color: rgba(255, 200, 4, 0.15);
+}
+.photo_teacher {
+    padding: 40px 379px 22px 387px;
+}
+.h_two {
+    padding: 0px 353px 10px 353px;
+    width: 224px;
+    height: 34px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 90%;
+    letter-spacing: 1px;
+}
+.name {
+    width: 191px;
+    height: 25px;
+    padding: 0px 369px 9px 370px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 80%;
+    letter-spacing: 1px;
+}
+.teacher_experience {
+    width: 757px;
+    height: 57px;
+    padding: 0px 86px 65px 91px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 80%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.courses {
+    padding: 0px;
+    margin: 0px;
+    width: 1011px;
+    height: 611px;
+}
+.courses_container {
+    margin: 0px 40px 76px 41px;
+    padding: 0px;
+    width: 930px;
+    height: 590px;
+}
+.h_three {
+    padding: 0px 415px 54px 396px;
+    width: 159px;
+    height: 45px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 90%;
+    letter-spacing: 1px;
+}
+.courses_table {
+    width: 930px;
+    height: 491px;
+    padding: 0px 40px 0px 0px;
+    margin: 0px;
+}
+.first_row {
+    width: 930px;
+    height: 227px;
+    padding-bottom: 36px;
+    margin: 0px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.course_one {
+    width: 450px;
+    height: 227px;
+    margin: 0px 30px 37px 0px;
+    background-image: url(img/learn-german-language-online-education-concept\ 2.png);
+}
+.course_one_description {
+    width: 345px;
+    height: 143px;
+    padding: 23px 52.5px 1.5px 52.5px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    color:  rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.price_one {
+    width: 200px;
+    height: 33px;
+    padding: 0px 125.5px 27px 125.5px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color:  rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.course_two {
+    width: 450px;
+    height: 227px;
+    margin: 0px 0px 37px 0px;
+    background-image: url(img/Rectangle\ 10.png);
+}
+.course_two_description {
+    width: 265px;
+    height: 82px;
+    padding: 25px 99px 64px 91px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    color:  rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.price_two {
+    width: 200px;
+    height: 33px;
+    padding: 0px 125.5px 21.53px 125.5px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color:  rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.second_row {
+    width: 930px;
+    height: 227px;
+    padding: 0px;
+    margin: 0px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.course_three {
+    width: 450px;
+    height: 227px;
+    margin: 0px 30px 37px 0px;
+    background-image: url(img/Rectangle\ 8.png);
+}
+.course_three_description {
+    width: 347px;
+    height: 80px;
+    padding: 34.28px 22px 48px 52px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    color:  rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.price_three {
+    width: 200px;
+    height: 33px;
+    padding: 0px 125.5px 32.45px 125.5px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color:  rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.course_four {
+    width: 450px;
+    height: 227px;
+    margin: 0px 0px 37px 0px;
+    background-image: url(img/Rectangle\ 9.png);
+}
+.course_four_description {
+    width: 286px;
+    height: 78px;
+    padding: 35.28px 76px 49px 75px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    color:  rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.price_four {
+    width: 153px;
+    height: 33px;
+    padding: 0px 153.57px 32.45px 144.43px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color:  rgba(255, 255, 255, 1);
+}
+.footer {
+    display: inline-flex;
+    width: 1011px;
+    height: 125px;
+    margin: 0;
+    padding: 0;
+}
+.number {
+    width: 141px;
+    height: 42px;
+    padding: 98px 59px 41px 654px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    color:  rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.social {
+    width: 106px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 100px 0px 51px 51px;
+}
